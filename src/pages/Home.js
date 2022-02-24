@@ -1,6 +1,9 @@
 import React,{useState} from 'react'
+import ActorGrid from '../components/actor/ActorGrid';
 import MainPageLayout from '../components/MainPageLayout'
-import {apiGet} from '../misc/config'
+import ShowGrid from '../components/show/ShowGrid';
+import {apiGet} from '../misc/config';
+
 
 
 
@@ -63,7 +66,7 @@ function Home() {
     
       return(
 
-          result[0].show ? result.map( (item)=>(<div key={item.show.id}>{item.show.name}</div>)) : result.map( (item)=>(<div key={item.person.id}>{item.person.name}</div>))
+          result[0].show ? <ShowGrid data={result}/> : <ActorGrid  data={result}/>
         
         );
     }
