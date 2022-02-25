@@ -18,6 +18,10 @@ function App() {
       <Starred />
    </Route>
 
+   <Route exac path="/show/:id">
+
+   </Route>
+
    <Route>
      <div>
        Page not Found

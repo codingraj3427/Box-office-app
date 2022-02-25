@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import ActorGrid from '../components/actor/ActorGrid';
 import MainPageLayout from '../components/MainPageLayout'
 import ShowGrid from '../components/show/ShowGrid';
@@ -16,6 +16,15 @@ function Home() {
   const[searchOption,setsearchOption]=useState('');
 
   const isShowSearch=searchOption==='shows';
+
+  useEffect(()=>{
+    console.log("USe effect run  ");
+
+    return ()=>
+    {
+      console.log("exit")
+    };
+  },[searchOption])     //It requires two components 
 
   const onSearch=()=>
   {
