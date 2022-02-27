@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { TitleWrapper } from './Title.styled';
 
-const Title = ({Title,subtitle}) => {
+const Title = ({ Title, subtitle }) => {
   return (
-    <div>
+    <TitleWrapper>
       <h1>{Title}</h1>
       <p>{subtitle}</p>
+    </TitleWrapper>
+  );
+};
 
-    </div>
-  )
-}
-
-export default Title
+export default Title;
