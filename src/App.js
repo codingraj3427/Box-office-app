@@ -20,6 +20,8 @@ function App() {
 
    <Route exac path="/show/:id">
 
+       
+
    </Route>
 
    <Route>
