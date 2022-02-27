@@ -24,7 +24,7 @@ function Home() {
     {
       console.log("exit")
     };
-  },[searchOption])     //It requires two components 
+  },[searchOption])     //It requires two components ad 
 
   const onSearch=()=>
   {

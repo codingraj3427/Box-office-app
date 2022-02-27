@@ -1,37 +1,30 @@
 import React from 'react';
-import {Switch,Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
 import Starred from './pages/Starred';
-
-
+import Show from './pages/Show';
 
 function App() {
-
-
-  return(
-  <Switch>
-    <Route exact path="/">
+  return (
+    <Switch>
+      <Route exact path="/">
         <Home />
-   </Route>
+      </Route>
 
-   <Route exact path="/starred">
-      <Starred />
-   </Route>
+      <Route exact path="/starred">
+        <Starred />
+      </Route>
 
-   <Route exac path="/show/:id">
+      <Route exact path="/show/:id">
+        <Show />
+      </Route>
 
-       
-
-   </Route>
-
-   <Route>
-     <div>
-       Page not Found
-     </div>
-   </Route>
-  </Switch>
-    
-  );  
+      <Route>
+        <div>Not found</div>
+      </Route>
+    </Switch>
+  );
 }
 
 export default App;
