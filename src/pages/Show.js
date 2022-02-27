@@ -58,7 +58,7 @@ const Show = () => {
   }, [id]);
 
   if (isLoading) {
-    return <div>Data is being loaded</div>;
+    return <div>Data is being loaded soon........</div>;
   }
 
   if (error) {
