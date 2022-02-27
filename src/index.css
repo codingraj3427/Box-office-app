@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  background: url("./images/pexels-johannes-plenio-1103970.jpg");
   margin: 0;
   padding-top: 40px;
+  background-color: antiquewhite;
 }
