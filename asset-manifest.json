@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Box-office-app/static/css/main.f238338c.css",
-    "main.js": "/Box-office-app/static/js/main.66b216b6.js",
+    "main.js": "/Box-office-app/static/js/main.fb73eb64.js",
     "static/media/pexels-johannes-plenio-1103970.jpg": "/Box-office-app/static/media/pexels-johannes-plenio-1103970.b9a92a4fa2a1da1e5168.jpg",
     "service-worker.js": "/Box-office-app/service-worker.js",
     "index.html": "/Box-office-app/index.html",
     "main.f238338c.css.map": "/Box-office-app/static/css/main.f238338c.css.map",
-    "main.66b216b6.js.map": "/Box-office-app/static/js/main.66b216b6.js.map"
+    "main.fb73eb64.js.map": "/Box-office-app/static/js/main.fb73eb64.js.map"
   },
   "entrypoints": [
     "static/css/main.f238338c.css",
-    "static/js/main.66b216b6.js"
+    "static/js/main.fb73eb64.js"
   ]
 }
